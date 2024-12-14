@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAY! It's BOGO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Main header for the promotion -->
+      <h1>YAY! It's BOGO</h1>
+
+      <div class="product-options">
+        <!-- Option for 1 unit -->
+        <div class="option" data-units="1">
+          <label class="radio-container">
+            <!-- Radio button for selecting 1 unit -->
+            <input type="radio" name="unit-selection" value="1" checked />
+            <span class="radio-custom"></span>
+
+            <!-- Option details like unit, discount, and price -->
+            <div class="option-details">
+              <div class="unit-info standard-unit-info">
+                <div>
+                  <span class="unit-count">1 Unit</span>
+                  <span class="discount-badge">10% Off</span>
+                </div>
+                <span class="standard-price">Standard Price</span>
+              </div>
+              <div></div>
+              <div class="price-info">
+                <span class="current-price">$10.00 USD</span>
+                <span class="original-price">$24.00 USD</span>
+              </div>
+            </div>
+          </label>
+
+          <!-- Variant selectors for selecting size and color -->
+          <div class="variant-selectors">
+            <!-- Row for labels -->
+            <div class="variant-rows">
+              <span class="variant-number"></span>
+              <span class="size">Size</span>
+              <span class="colour">Colour</span>
+            </div>
+            <div class="variant-row">
+              <span class="variant-number">#1</span>
+              <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <select class="color-select">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Option for 2 units with "Most Popular" badge -->
+        <div class="option" data-units="2">
+          <div class="popular-badge">MOST POPULAR</div>
+
+          <label class="radio-container">
+            <!-- Radio button for selecting 2 units -->
+            <input type="radio" name="unit-selection" value="2" />
+            <span class="radio-custom"></span>
+
+            <!-- Option details like unit, discount, and price -->
+            <div class="option-details">
+              <div class="unit-info">
+                <span class="unit-count">2 Unit</span>
+                <span class="discount-badge">20% Off</span>
+              </div>
+              <div class="price-info">
+                <span class="current-price">$18.00 USD</span>
+                <span class="original-price">$24.00 USD</span>
+              </div>
+            </div>
+          </label>
+
+          <!-- Variant selectors for selecting size and color -->
+          <div class="variant-selectors">
+            <div class="variant-rows">
+              <span class="variant-number"></span>
+              <span class="size">Size</span>
+              <span class="colour">Colour</span>
+            </div>
+
+            <div class="variant-row">
+              <span class="variant-number">#1</span>
+              <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <select class="color-select">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+              </select>
+            </div>
+            <div class="variant-row">
+              <span class="variant-number">#2</span>
+              <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <select class="color-select">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Option for 3 units -->
+        <div class="option" data-units="3">
+          <label class="radio-container">
+            <!-- Radio button for selecting 3 units -->
+            <input type="radio" name="unit-selection" value="3" />
+            <span class="radio-custom"></span>
+
+            <!-- Option details like unit, discount, and price -->
+            <div class="option-details">
+              <div class="unit-info">
+                <span class="unit-count">3 Unit</span>
+                <span class="discount-badge">30% Off</span>
+              </div>
+              <div class="price-info">
+                <span class="current-price">$24.00 USD</span>
+                <span class="original-price">$24.00 USD</span>
+              </div>
+            </div>
+          </label>
+
+          <!-- Variant selectors for selecting size and color -->
+          <div class="variant-selectors">
+            <!-- Row for labels -->
+            <div class="variant-rows">
+              <span class="variant-number"></span>
+              <span class="size">Size</span>
+              <span class="colour">Colour</span>
+            </div>
+            <div class="variant-row">
+              <span class="variant-number">#1</span>
+              <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <select class="color-select">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+              </select>
+            </div>
+            <div class="variant-row">
+              <span class="variant-number">#2</span>
+              <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <select class="color-select">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+              </select>
+            </div>
+            <div class="variant-row">
+              <span class="variant-number">#3</span>
+              <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <select class="color-select">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer with delivery and total price -->
+      <div class="footer">
+        <div class="delivery">Free Delivery</div>
+        <div class="total">Total: <span id="total-price">$10.00 USD</span></div>
+      </div>
+
+      <!-- Add to Cart button -->
+      <button class="add-to-cart">
+        <span class="plus">+</span>
+        Add to Cart
+      </button>
+
+      <!-- Footer attribution -->
+      <div class="powered-by">@ Powered by Pumper</div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
